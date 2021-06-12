@@ -1,0 +1,3 @@
+C:/Users/YYL/Desktop/CLionProject/translation/cmake-build-debug/CMakeFiles/translation.dir
+C:/Users/YYL/Desktop/CLionProject/translation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/YYL/Desktop/CLionProject/translation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

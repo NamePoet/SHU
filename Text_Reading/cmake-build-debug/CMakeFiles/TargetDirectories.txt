@@ -1,0 +1,3 @@
+C:/Users/YYL/Desktop/CLionProject/Text_Reading/cmake-build-debug/CMakeFiles/Text_Reading.dir
+C:/Users/YYL/Desktop/CLionProject/Text_Reading/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/YYL/Desktop/CLionProject/Text_Reading/cmake-build-debug/CMakeFiles/rebuild_cache.dir

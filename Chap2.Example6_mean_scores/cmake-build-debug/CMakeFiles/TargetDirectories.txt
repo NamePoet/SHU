@@ -1,0 +1,3 @@
+C:/Users/YYL/Desktop/CLionProject/Example6_mean_scores/cmake-build-debug/CMakeFiles/Example6_mean_scores.dir
+C:/Users/YYL/Desktop/CLionProject/Example6_mean_scores/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/YYL/Desktop/CLionProject/Example6_mean_scores/cmake-build-debug/CMakeFiles/rebuild_cache.dir
