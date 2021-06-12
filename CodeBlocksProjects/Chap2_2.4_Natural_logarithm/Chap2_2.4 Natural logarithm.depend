@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1618489429 source:c:\users\yyl\documents\codeblocksprojects\chap2_2.4 natural logarithm\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1618489429 source:c:\codeblocksprojects\chap2_2.4 natural logarithm\main.c
+	<stdio.h>
+	<stdlib.h>
+

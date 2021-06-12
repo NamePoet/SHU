@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620305807 source:d:\codeblocks\codeblocksprojects\chap3_3.15_a_game_with_matches\main.c
+	<stdio.h>
+	<stdlib.h>
+

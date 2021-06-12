@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620954732 source:d:\codeblocks\codeblocksprojects\chap4_4.7_eratosthenes_and_prime_numbers\main.c
+	<stdio.h>
+	<stdlib.h>
+

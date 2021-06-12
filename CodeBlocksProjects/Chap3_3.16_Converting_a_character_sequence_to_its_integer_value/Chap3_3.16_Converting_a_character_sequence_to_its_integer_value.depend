@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620113038 source:d:\codeblocks\codeblocksprojects\chap3_3.16_converting_a_character_sequence_to_its_integer_value\main.c
+	<stdio.h>
+	<stdlib.h>
+

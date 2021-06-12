@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619137706 source:d:\codeblocks\codeblocksprojects\chap3_mean_of_a_list\main.c
+	<stdio.h>
+	<stdlib.h>
+

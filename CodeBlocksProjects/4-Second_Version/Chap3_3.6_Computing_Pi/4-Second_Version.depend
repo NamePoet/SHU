@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619746393 source:d:\codeblocks\codeblocksprojects\4-second_version\chap3_3.6_computing_pi\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619744553 source:d:\codeblocks\codeblocksprojects\chap3_horner\main.c
+	<stdio.h>
+	<stdlib.h>
+

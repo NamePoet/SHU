@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1621559295 source:d:\codeblocks\codeblocksprojects\chap4_4.9_comparison_of_2_arrays_of_characters\main.c
+	<stdio.h>
+	<stdlib.h>
+

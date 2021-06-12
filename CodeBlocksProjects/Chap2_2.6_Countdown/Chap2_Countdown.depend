@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618474353 source:c:\codeblocksprojects\chap2_2.6_countdown\main.c
+	<stdio.h>
+	<stdlib.h>
+

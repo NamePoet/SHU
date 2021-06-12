@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1618478226 source:c:\users\yyl\documents\codeblocksprojects\chap2_date_in_days\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1618479438 source:c:\users\yyl\documents\codeblocksprojects\chap2_2.7 date in days\main.c
+	<stdio.h>
+	<stdlib.h>
+

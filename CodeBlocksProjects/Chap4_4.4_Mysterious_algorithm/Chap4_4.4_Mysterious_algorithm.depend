@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620348944 source:d:\codeblocks\codeblocksprojects\chap4_4.4_mysterious_algorithm\main.c
+	<stdio.h>
+	<stdlib.h>
+

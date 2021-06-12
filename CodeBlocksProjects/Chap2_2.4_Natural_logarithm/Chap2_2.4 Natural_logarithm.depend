@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618489429 source:d:\codeblocks\codeblocksprojects\chap2_2.4_natural_logarithm\main.c
+	<stdio.h>
+	<stdlib.h>
+

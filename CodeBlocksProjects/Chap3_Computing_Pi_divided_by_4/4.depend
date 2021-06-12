@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1619140415 source:d:\codeblocks\codeblocksprojects\4\chap3_computing_pi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1619140415 source:d:\codeblocks\codeblocksprojects\chap3_computing_pi_divided_by_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

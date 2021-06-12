@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618912385 source:d:\codeblocks\codeblocksprojects\chap3_integral_approximation\main.c
+	<stdio.h>
+	<stdlib.h>
+

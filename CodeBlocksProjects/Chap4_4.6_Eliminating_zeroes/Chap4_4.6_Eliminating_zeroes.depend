@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620953210 source:d:\codeblocks\codeblocksprojects\chap4_4.6_eliminating_zeroes\main.c
+	<stdio.h>
+	<stdlib.h>
+
