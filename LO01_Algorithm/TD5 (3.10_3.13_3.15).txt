@@ -1,0 +1,156 @@
+=============================3.10==================================
+Data:
+A given number x, a real, entered through the keyboard.
+The upper bound of the error's absolute value: a positive real number, entered through the keyboard.
+Result:
+The approximate value of exponential: a real number. Displayed on the screen.
+
+R(1) = 1,           S(1) = (x ^ 1) / 1
+R(2) = R(1) + S(1), S(2) = S(1) * x / 2
+R(3) = R(2) + S(2), S(3) = S(2) * x / 3
+...
+R(n) = R(n - 1) + S(n - 1)
+S(n) = S(n - 1) * x / n
+
+E(n) = E(n - 1) / n * |x| / (n - |x| + 1) * (n - |x|)
+
+First, one has to enter the given number x and the upper bound of the error: Variable x and Variable bound.
+Only a variable Val is needed to store the successive values of R(n). Likewise, only one variable S is needed to store the successive values of S(n). A variable absx is needed to store the absolute value of x and a variable upbound is needed to store the successive values of E(n).
+A condition controlled loop is required, using a variable n. The stopping condition is upbound < bound. Before the loop, n, Val, S, absx and upbound should be initialized.
+
+Algorithm Exponential2
+Variable:
+	x, bound, Val, S, absx, upbound: Reals
+	n : Integer
+Instructions:
+	Write("Enter the given number x and the upper bound of the error: " !)
+	Read(KBD ! x, bound)
+	n <- 1
+	Val <- 1
+	S <- x
+	If x > 0 Then
+		absx <- x
+	Else
+		absx <- -x
+	EndIf
+	upbound <- absx * absx / (2 - absx)
+	While upbound >= bound Do
+		n <- n + 1
+		Val <- Val + S
+		S <- S * x / n
+		upbound <- upbound / n * absx / (n - absx + 1) * (n - absx)
+	EndWhile
+	Write("The approximate value of exponential is: ", Val !)
+END Exponential2
+
+=============================================3.13=======================
+Data:
+A given number, a positive integer, entered through the keyboard.
+Result:
+A boolean number to determine whether the given number is a prime number. 
+
+Assume a number n is not a prime number, and n has no any divisor which is not 1 and which is <= sqrt(n).
+Because n is not a prime number, then n has a divisor p which is not 1 and which is not n. Then p > sqrt(n). And n / p = q, then q is also a divisor of n, and q > sqrt(n). Then p * p > sqrt(n) * sqrt(n) , then p * q > n. So the assumption is invalid.
+
+Algorithm Prime
+Variables:
+	n, m : Integers
+	isPrime : Boolean
+Instructions:
+	Write("Enter a positive integer !" !)
+	Read(KBD ! n)
+	m <- 2
+	isPrime <- True
+	If n = 1 Then
+		isPrime <- False
+	EndIf
+	while m * m <= n AND isPrime = True Do
+		If n % m == 0 Then
+			isPrime <- False
+		EndIf
+		m <- m + 1
+	EndWhile
+	If isPrime = True Then
+		Write("The given number is a prime number." !)
+	Else
+		Write("The given number is not a prime number." !)
+	EndIf
+END Prime
+
+
+First, one has to enter a positive integer: variable n.
+A variable isPrime is needed to determine whether the given number is a prime number. And a variable m is needed to store the value of sqrt(n).
+A count controlled loop is required, working with a variable i that ranges from value 2 to m.
+Before the loop m and isPrime should be initialized.
+
+Algorithm Prime
+Variables:
+	n, m, i : Integers
+	isPrime : Boolean
+Instructions:
+	Write("Enter a positive integer !" !)
+	Read(KBD ! n)
+	m <- 2
+	isPrime <- True
+	If n = 1 Then
+		isPrime <- False
+	EndIf
+	m <- E(sqrt(n))
+	For i from 2 to m step 1
+		If n % i == 0 Then
+			isPrime <- False
+		EndIf
+	EndFor
+	If isPrime = True Then
+		Write("The given number is a prime number. " !)
+	Else
+		Write("The given number is not a prime number. " !)
+	EndIf
+END Prime
+
+
+=========================3.15=====================================
+Algorithm Match_game
+Variables:
+	N, p, a, current_player : Integers
+Instructions:
+	Write("Enter a positive integer." !)
+	Read(KBD ! N)
+	Write("Enter a positive integer." !)
+	Read(KBD ! p)
+	current_player <- -1
+	While N > 0 Do
+		current_player <- current_player * -1
+		Write("How many matches do you want to pick up?" !)
+		Read(KBD ! a)
+		While a < 0 OR a > p OR a > N Do
+			Write("Wrong input! Enter an integer again." !)
+			Read(KBD ! a)
+		EndWhile
+		N <- N - a
+	EndWhile
+	If current_player = 1 Then
+		Write("Player1 wins!" !)
+	Else
+		Write("Player2 wins!" !)
+	EndIf
+END Match_game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
